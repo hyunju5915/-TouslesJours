@@ -200,8 +200,10 @@ a{
 
 .section01 > .background-color-wrap > .background-color01{
     width: 1920px;
-    height:50%;
+    height:100%;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     bottom:0;
     background: linear-gradient(180deg, rgba(247, 240, 218, 0) 0%, #F7F0DA 99.99%, rgba(247, 240, 218, 0) 100%);
 }
@@ -332,11 +334,219 @@ a{
 /* section02 시작 */
 .section02{
     width: 1920px;
-    height: 815px;
-    background-color: teal;
     padding-top: 126px;
+    margin-bottom: 220px;
 }
 
-.
+.section02 > .title-wrap > .more-btn{
+    margin-right: 63px;
+}
+
+.section02 > .content-wrap > .pro-wrap{
+    width: 666px;
+    height: 356px;
+    margin-top: 119px;
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro{
+    width: 199px;
+    height: 169px;
+    margin-right: 23px;
+    position: relative;
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro > a > .img{
+    width: 199px;
+    height: 169px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro01 > a > .img{
+    background-image: url(../img/section02-01.png);
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro02 > a > .img{
+    background-image: url(../img/section02-02.png);
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro03 > a > .img{
+    background-image: url(../img/section02-03.png);
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro04 > a > .img{
+    background-image: url(../img/section02-04.png);
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro05 > a > .img{
+    background-image: url(../img/section02-05.png);
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro06 > a > .img{
+    background-image: url(../img/section02-06.png);
+}
+
+
+.section02 > .content-wrap > .pro-wrap > .pro > a > .shodow-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    visibility: hidden;
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro:hover > a > .shodow-box{
+    visibility: visible;
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro > a > .shodow-box > .pro-name{
+    margin-top: 63px;
+}
+
+.section02 > .content-wrap > .pro-wrap > .pro > a > .shodow-box > .more-btn{
+    width: 59px;
+    height: 19px;
+    margin: 0 auto;
+    margin-top: 7px;
+    background-color: #0D4633;
+    color: #E1E1E1;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.section02 > .content-wrap > .res-wrap{
+    margin-right: 55px;
+    margin-top: 51px;
+    position: relative;
+}
+
+.section02 > .content-wrap > .res-wrap > .round{
+    width: 364px;
+    height: 354px;
+    border-radius: 50%;
+    background-color: #F7F1DD;
+}
+
+.section02 > .content-wrap > .res-wrap > .round > .text{
+    text-align: center;
+}
+
+.section02 > .content-wrap > .res-wrap > .round > .text > .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 71px;
+}
+
+.section02 > .content-wrap > .res-wrap > .round > .text > .sub{
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.section02 > .content-wrap > .res-wrap > .round > .text > .more-btn{
+    border: 1.5px solid #0D4633;
+    display: inline-block;
+    margin-top: 34px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.section02 > .content-wrap > .res-wrap > .round > .text > .more-btn:hover{
+    color: #E1E1E1;
+    background-color: #0D4633;
+}
+
+.section02 > .content-wrap > .res-wrap > .cake{
+    width: 213px;
+    height: 223px;
+    background-image: url(../img/생크림\ 1.png);
+    position: absolute;
+    left: 46%;
+    top:60%;
+    transform: translate(-50%);
+}
+
+
+
 
 /* section02 끝 */
+
+/* section-ban 시작 */
+
+.section-ban{
+    width: 100%;
+    height: 115px;
+    background-color: #FFE2E7;
+    margin-bottom: 180px;
+}
+
+.section-ban > .banner > .img{
+    width: 100%;
+    height: 115px;
+    background-image: url(../img/event2.png);
+}
+
+/* section-ban 끝 */
+
+/* section03 시작 */
+.section03 > .slide .content{
+    width: 276px;
+    height: 274px;
+    background-color: #FFE2E7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 67px;
+    margin-right: 32px;
+}
+
+.section03 > .slide .content01{
+    background-image: url(../img/section03-01.jpg);
+}
+
+.section03 > .slide .content02{
+    background-image: url(../img/section03-02.jpg);
+}
+
+.section03 > .slide .content03{
+    background-image: url(../img/section03-03.jpg);
+}
+
+.section03 > .slide .content04{
+    background-image: url(../img/section03-04.jpg);
+}
+
+.section03 > .slide .content05{
+    background-image: url(../img/section03-05.jpg);
+}
+
+/* section03 끝 */
+
+/* section04 시작 */
+.section04{
+    margin-top: 220px;
+}
+
+.section04 > .title-wrap{
+    margin-bottom: 37px;
+}
+
+.section04 > .content-wrap > .title-wrap > {
+    color: #E1E1E1;
+}
+
+.section04 > .content-wrap > .title-wrap > .video-box{
+    margin-top: 37px;
+}
+
+.section04 > .content-wrap > .title-wrap > .video-box > iframe{
+    margin: 0 auto;
+}
+
+/* section04 끝 */

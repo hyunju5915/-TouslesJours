@@ -9,6 +9,15 @@ $(document).ready(function(){
     prevArrow: false,
   });
 
+  $('.section01 > .content-wrap > .silde .content').click({
+
+    let indexNum = $(this).index();
+
+    $('.background-color').eq(indexNum).addClass("active");
+    $('.background-color').sibling().removeClass("active");
+
+  })
+
   // $('.section01 > .content-wrap > .product-wrap > .silde').slick({
   //   slidesToShow: 5,
   // });

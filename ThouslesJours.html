@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="kr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <!-- 제이쿼리자리 -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <!-- 제이쿼리자리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- 슬릭슬라이드     -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <!-- js, css 연결 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- js, css 연결 -->
     <script src="js/TouslesJours.js" defer></script>
     <link rel="stylesheet" href="./css/TouslesJours.css">
 
 </head>
+
 <body>
     <div class="header-wrap con1920 color-g">
         <div class="header con row">
-          <div class="menu-icon cell">
-            <img src="./img/teenyicons_menu-solid.png" alt="">
-          </div>
-          <div class="search-box cell">
-              <div class="search-line"><input type="text"></div>
-          </div>
-          <div class="logo cell">
-              <img src="./img/logo.png" alt="">
-          </div>
-          <div class="right-nav cell-r">
-              <ul class="row">
-                  <li class="cell"><a href="#">온라인샵</a></li>
-                  <li class="cell"><a href="#">기사채용</a></li>
-                  <li class="cell"><a href="#">창업안내</a></li>
-                  <li class="cell"><a href="#">로그인</a></li>
-                  <a href=""></a>
-              </ul>
-          </div>
+            <div class="menu-icon cell">
+                <img src="./img/teenyicons_menu-solid.png" alt="">
+            </div>
+            <div class="search-box cell">
+                <div class="search-line"><input type="text"></div>
+            </div>
+            <div class="logo cell">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="right-nav cell-r">
+                <ul class="row">
+                    <li class="cell"><a href="#">온라인샵</a></li>
+                    <li class="cell"><a href="#">기사채용</a></li>
+                    <li class="cell"><a href="#">창업안내</a></li>
+                    <li class="cell"><a href="#">로그인</a></li>
+                    <a href=""></a>
+                </ul>
+            </div>
         </div>
-      </div>
+    </div>
     <div class="main-section-wrap  con1920">
         <div class="background-img">
             <img src="./img/mein-section-img.png" alt="">
@@ -47,12 +58,12 @@
             <div class="round"></div>
             <div class="title-box">
                 <div class="title">Tous Les Jours 매일매일
-                <br>매장에서 직접 굽는 신선한 베이커리</div>
-            <div class="content">뚜레쥬르는 (Tous Les Jours - 프랑스어로 ‘매일매일’이라는 뜻)
-                <br>그 이름의 의미처럼 매일매일 매장에서 
-                <br>직접 굽는 신선함을 가장 큰 가치로 하는 베이커리 입니다.</div>
-        </div>
+                    <br>매장에서 직접 굽는 신선한 베이커리</div>
+                <div class="content">뚜레쥬르는 (Tous Les Jours - 프랑스어로 ‘매일매일’이라는 뜻)
+                    <br>그 이름의 의미처럼 매일매일 매장에서
+                    <br>직접 굽는 신선함을 가장 큰 가치로 하는 베이커리 입니다.</div>
             </div>
+        </div>
         <div class="front-img">
             <img src="./img/main-section-front.png" alt="">
         </div>
@@ -69,7 +80,7 @@
                 <div class="sub-title">따끈따끈한 뚜레쥬르 신상을 온라인으로 확인해보세요!</div>
                 <div class="more-btn">온라인 쇼핑몰 바로가기</div>
             </div>
-            <div class="silde row con1200">
+            <div class="slide row con1200">
                 <div class="content content01 cell">
                     <div class="shodow-box active"></div>
                     <div class="img"></div>
@@ -88,7 +99,7 @@
                 </div>
             </div>
             <div class="product-wrap con1200">
-                <div class="silde silde01 row">
+                <div class="slide slide01 row">
                     <div class="content content01 cell">
                         <div class="img-box">
                         </div>
@@ -135,8 +146,8 @@
                     <a href="#">
                         <div class="img"></div>
                         <div class="shodow-box">
-                                <div class="pro-name">스트로베리 리치 생크림</div>
-                                <div class="more-btn">MORE</div>
+                            <div class="pro-name">스트로베리 리치 생크림</div>
+                            <div class="more-btn">MORE</div>
                         </div>
                     </a>
                 </div>
@@ -191,15 +202,15 @@
                     <div class="text">
                         <div class="title">예약/픽업 서비스란?</div>
                         <div class="sub">
-                        뚜레쥬르 쇼핑몰에서 미리 예약, 결제하고<br>원하는 날짜와 시간에 원하는 매장에서 픽업하는 서비스
+                            뚜레쥬르 쇼핑몰에서 미리 예약, 결제하고<br>원하는 날짜와 시간에 원하는 매장에서 픽업하는 서비스
                         </div>
                         <div class="more-btn"><a href="">예약 바로가기</a></div>
-                    </div> 
+                    </div>
                 </div>
                 <div class="cake"></div>
             </div>
         </div>
-        
+
     </div>
     <div class="section section-ban con1920">
         <div class="banner con">
@@ -211,6 +222,10 @@
             <div class="main-title">이벤트 및 할인혜택</div>
             <div class="sub-title">뚜레쥬르 이벤트 및 할인혜택을 확인하시고 저렴한 가격으로 풍성하게 누리세요!</div>
         </div>
+        <div class="btn-wrap">
+            <div class="pre-btn"></div>
+            <div class="next-btn"></div>
+        </div>
         <div class="slide con">
             <div class="content content01"></div>
             <div class="content content02"></div>
@@ -218,7 +233,13 @@
             <div class="content content04"></div>
             <div class="content content05"></div>
         </div>
-    </div> 
+        <div class="dot-wrap">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
     <div class="section section04 con1920">
         <div class="bg-wrap">
             <div class="bg-img bg-img01"></div>
@@ -229,7 +250,10 @@
                 <div class="sub-title">뚜레쥬르 제품에 담긴, 뚜레쥬르가 전하고 싶은 이야기를 들어보세요</div>
             </div>
             <div class="video-box con">
-                <iframe width="479" height="267" src="https://www.youtube.com/embed/Vt0ABwzERJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="479" height="267" src="https://www.youtube.com/embed/Vt0ABwzERJU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
             <div class="story-wrap con1920">
                 <div class="story story01">
@@ -242,7 +266,7 @@
                         <div class="pro-box pro-box01 cell">
                             <div class="pro-img"></div>
                             <div class="name">건포도빵</div>
-                            <div class="title">천일염의 사용으로 
+                            <div class="title">천일염의 사용으로
                                 그 풍미가 더욱 깊어졌으며,
                                 달콤한 건포도와 고소한 피칸이 들어간
                                 대표적인 건강한 유럽스타일 빵</div>
@@ -250,7 +274,7 @@
                         <div class="pro-box pro-box02 cell">
                             <div class="pro-img"></div>
                             <div class="name">호밀빵</div>
-                            <div class="title">천일염의 사용으로 
+                            <div class="title">천일염의 사용으로
                                 그 맛이 더욱 깔끔해진
                                 호밀과 오트밀이 조화를 이룬
                                 식사대용 건강한 유럽스타일 빵</div>
@@ -258,7 +282,7 @@
                         <div class="pro-box pro-box03 cell">
                             <div class="pro-img"></div>
                             <div class="name">프랑스 바게트</div>
-                            <div class="title">천일염의 사용으로 
+                            <div class="title">천일염의 사용으로
                                 그 풍미가 더욱 깊어졌으며,
                                 달콤한 건포도와 고소한 피칸이 들어간
                                 대표적인 건강한 유럽스타일 빵</div>
@@ -267,7 +291,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
     <div class="section section05 con1920">
         <div class="title-wrap">
@@ -276,16 +300,20 @@
         </div>
         <div class="content-wrap row">
             <div class="man-box box cell">
-                <a href="#"><div class="img"></div></a>
+                <a href="#">
+                    <div class="img"></div>
+                </a>
                 <div class="text">
                     <div class="title">창업안내</div>
-                    <div class="sub">20년 프랜차이즈 노하우를 더해 만든 
+                    <div class="sub">20년 프랜차이즈 노하우를 더해 만든
                         CJ 푸드빌 뚜레쥬르 신모델과 함께 긴 인생 든든하게 준비하세요!</div>
                     <div class="more-btn"><a href="#">자세히보기</a></div>
                 </div>
             </div>
             <div class="baker-box box cell">
-                <a href="#"><div class="img"></div></a>
+                <a href="#">
+                    <div class="img"></div>
+                </a>
                 <div class="text">
                     <div class="title">기사채용</div>
                     <div class="sub">뚜레쥬르는 제빵이론과 실기중심의 프로그램으로
@@ -320,7 +348,7 @@
             </div>
             <div class="info-box">
                 <div class="text">
-                    상호명 : CJ푸드빌(주) 
+                    상호명 : CJ푸드빌(주)
                     <br>주소 : (우)04555 서울시 중구 마른내로34(초동 106-9번지) KT&G 을지로타워 3,9-11층 CJ푸드빌(주)
                     <br>통신판매업종신고증 제 2011-서울중구-0771호
                     <br>호스팅제공자 : CJ올리브네트웍스(주)
@@ -329,7 +357,8 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </body>
+
 </html>

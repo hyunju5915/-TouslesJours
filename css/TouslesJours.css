@@ -601,7 +601,7 @@ a{
     position: relative;
 }
 
-.section04 > .bg-wrap > .bg-img{
+.section04 > .bg-wrap .bg-img-content{
     height: 954px;
     padding-bottom: 70px;
     background-repeat: no-repeat;
@@ -609,12 +609,16 @@ a{
     background-size: cover;
 }
 
-.section04 > .bg-wrap > .bg-img01{
+.section04 > .bg-wrap .bg-img01{
     background-image: url(../img/section04-01.png);
 }
 
-.section04 > .bg-wrap > .bg-img02{
+.section04 > .bg-wrap .bg-img02{
     background-image: url(../img/section04-02.png);
+}
+
+.section04 > .bg-wrap .bg-img03{
+    background-image: url(../img/section04-03.png);
 }
 
 .section04 > .title-wrap{

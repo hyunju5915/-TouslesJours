@@ -56,7 +56,14 @@ $(document).ready(function(){
   });
 
   $('.section04 .slide').slick({
+    asNavFor: '.section04 .bg-slide',
+  });
 
+  $('.section04 .bg-slide').slick({
+    asNavFor: '.section04 .slide',
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
   });
 
 });

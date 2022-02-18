@@ -17,16 +17,24 @@ $(document).ready(function(){
 
     $('.background-color').removeClass("active");
     $('.background-color').eq(indexNum).addClass("active");
+    $('.shodow-box').removeClass("active");
+    $(this).addClass("active");
+    $('.product-wrap > .slide').removeClass("active");
+    $('.product-wrap > .slide').eq(indexNum).addClass("active");
   
 
   });
 
-  $('.section01 .shodow-box').click(function(){
+  // $('.section01 > .content-wrap > .slide .content').click(function(){
 
-    $('.shodow-box').removeClass("active");
-    $(this).addClass("active");
+  //   let indexNum = $(this).index();
 
-  });
+  //   $('.shodow-box').removeClass("active");
+  //   $(this).addClass("active");
+  //   $('.product-wrap > .slide').removeClass("active");
+  //   $('.product-wrap > .slide').eq(indexNum).addClass("active");
+
+  // });
 
   $('.section01 .shodow-box').hover(function(){
 
@@ -45,6 +53,10 @@ $(document).ready(function(){
     slidesToShow: 4,
     dots: true,
     draggable: false,
+  });
+
+  $('.section04 .slide').slick({
+
   });
 
 });

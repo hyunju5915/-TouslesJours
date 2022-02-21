@@ -53,10 +53,14 @@ $(document).ready(function(){
     slidesToShow: 4,
     dots: true,
     draggable: false,
+    prevArrow:$(".section03 > .pre-btn"),
+    nextArrow:$(".section03 > .next-btn"),
   });
 
   $('.section04 .slide').slick({
     asNavFor: '.section04 .bg-slide',
+    prevArrow:$(".btn-box > .pre-btn"),
+    nextArrow:$(".btn-box  > .next-btn"),
   });
 
   $('.section04 .bg-slide').slick({

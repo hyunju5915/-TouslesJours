@@ -17,10 +17,13 @@ $(document).ready(function(){
 
   $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').click(function(){
 
-    let indexNum = $(this).index();
+    // let indexNum = $(this).index();
 
-    $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').removeClass('active');
-    $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').eq(indexNum).toggleClass('active');
+    // $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').removeClass('active');
+    // $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').eq(indexNum).toggleClass('active');
+
+    $(this).next(".nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li > ul").stop().slideToggle(500);
+    $(this).next(".nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li > ul").siblings(".nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li > ul").slideUp(500);
 
   });
 

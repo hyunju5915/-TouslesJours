@@ -1,6 +1,30 @@
 AOS.init();
 
 $(document).ready(function(){
+
+  $('.menu-icon').click(function(){
+
+    $('.nav-wrap').toggleClass('active');
+
+  });
+
+  $('.nav-right-section').click(function(){
+
+    $('.nav-wrap').removeClass('active');
+
+  });
+
+
+  $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').click(function(){
+
+    let indexNum = $(this).index();
+
+    $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').removeClass('active');
+    $('.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li').eq(indexNum).toggleClass('active');
+
+  });
+
+
   $('.section01 > .content-wrap > .slide').slick({
     speed: 300,
     slidesToShow: 1,
@@ -53,12 +77,13 @@ $(document).ready(function(){
     slidesToShow: 4,
     dots: true,
     draggable: false,
-    prevArrow:$(".section03 > .pre-btn"),
-    nextArrow:$(".section03 > .next-btn"),
+    prevArrow:$(".section03 .pre-btn"),
+    nextArrow:$(".section03 .next-btn"),
   });
 
   $('.section04 .slide').slick({
     asNavFor: '.section04 .bg-slide',
+    fade: true,
     prevArrow:$(".btn-box > .pre-btn"),
     nextArrow:$(".btn-box  > .next-btn"),
   });

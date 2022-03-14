@@ -141,6 +141,137 @@ a{
 }
 
 /* header 끝 */
+/* nav-wrap 시작 */
+.nav-wrap{
+    width: 1920px;
+    position: absolute;
+    left:-100%;
+    display: none;
+}
+
+.nav-wrap.active{
+    left:0px;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav-wrap > .nav-section{
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+
+.nav-wrap > .nav-section > .nav-left-section{
+    position: absolute;
+    width: 720px;
+    background-color:rgba(255, 255, 255, 0.9);
+}
+
+.nav-wrap > .nav-section > .nav-left-section::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.9);
+    top: 0;
+    left:-100%;
+}
+
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li{
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li > ul{ 
+    display: none;
+    transition: 1s;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li > ul > li:hover{ 
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li.active > ul{
+    display: block;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .nav-box > ul > li > ul > li{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul{
+    margin-top: 100px;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul > li{
+    width: 154px;
+    height: 131px;
+    margin: 0px 10px;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul > li > .img{
+    width: 154px;
+    height: 131px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul > .item01 > .img{
+    background-image: url(../img/section01-01-01.png);
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul > .item02 > .img{
+    background-image: url(../img/section01-02-01.png);
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul > .item03 > .img{
+    background-image: url(../img/section01-03-01.png);
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .item-box > ul > .item04 > .img{
+    background-image: url(../img/section01-04-01.png);
+}
+
+.nav-wrap > .nav-section > .nav-left-section > .event-box{
+    width: 100%;
+    height: 100px;
+    background-color: #F49D36;
+    margin-top: 40px;
+    background-image: url(../img/event2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-wrap > .nav-section > .nav-right-section{
+    width: 800px;
+    height: 100%;
+    background-color: #0D4633;
+}
+
+
+/* nav-wrap 끝 */
 /* main-section-wrap 시작 */
 .main-section-wrap{
     width: 1920px;
